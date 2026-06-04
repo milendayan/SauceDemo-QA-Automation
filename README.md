@@ -2,7 +2,7 @@
 
 ## 📋 Descripción
 
-Este proyecto contiene la automatización de pruebas funcionales para la aplicación web **SauceDemo** utilizando **Cypress**.
+Este proyecto contiene la automatización de pruebas funcionales para la aplicación web **SauceDemo: https://www.saucedemo.com/** utilizando **Cypress**.
 
 Como parte del proceso de aseguramiento de calidad (QA), también se documentaron y reportaron los defectos identificados durante la ejecución de pruebas mediante **Trello**, siguiendo un formato estandarizado de reporte de bugs.
 
