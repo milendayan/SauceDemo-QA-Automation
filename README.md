@@ -43,7 +43,6 @@ Como parte del proceso de aseguramiento de calidad (QA), también se documentaro
 
 - Verificación de cantidad de productos.
 - Ordenamiento de productos por precio (menor a mayor).
-- Validación de ordenamiento con usuario `problem_user`.
 
 ### 🛒 Carrito
 
@@ -55,7 +54,6 @@ Como parte del proceso de aseguramiento de calidad (QA), también se documentaro
 
 - Completar checkout con datos válidos.
 - Checkout con campos obligatorios vacíos.
-- Validación del campo Last Name con usuario `problem_user`.
 
 ---
 
@@ -77,20 +75,13 @@ Durante la ejecución de las pruebas se identificaron los siguientes defectos:
 cypress/
 │
 ├── e2e/
-│   ├── login.cy.js
-│   ├── inventario.cy.js
 │   ├── carrito.cy.js
-│   └── checkout.cy.js
+│   ├── checkout.cy.js
+│   ├── inventario.cy.js
+│   └── login.cy.js
 │
 ├── fixtures/
 ├── support/
-│
-├── bug-reports/
-│   ├── BUG-01.md
-│   ├── BUG-02.md
-│   └── BUG-03.md
-│
-├── evidencias/
 │
 └── README.md
 ```
@@ -108,35 +99,23 @@ git clone https://github.com/tu-usuario/saucedemo-qa-automation.git
 Ingresar al directorio:
 
 ```bash
-cd saucedemo-qa-automation
-```
-
-Instalar dependencias:
-
-```bash
-npm install
+cd QA2026
 ```
 
 ---
 
 ## ▶️ Ejecución de Pruebas
 
-Abrir Cypress en modo interactivo:
+Instalar Cypress dentro de la carpeta que vamos a usar:
+
+```bash
+npm install cypress
+```
+
+Abrir Cypress y ejecutar las pruebas realizadas:
 
 ```bash
 npx cypress open
-```
-
-Ejecutar todas las pruebas en modo headless:
-
-```bash
-npx cypress run
-```
-
-Ejecutar una suite específica:
-
-```bash
-npx cypress run --spec "cypress/e2e/login.cy.js"
 ```
 
 ---
@@ -151,15 +130,12 @@ npx cypress run --spec "cypress/e2e/login.cy.js"
 | CP-04 | Login | Usuario bloqueado |
 | CP-05 | Login | Logout |
 | CP-06 | Inventario | Cantidad de productos |
-| CP-07 | Inventario | Imágenes de productos |
 | CP-08 | Inventario | Ordenamiento por precio |
-| CP-09 | Inventario | Ordenamiento con problem_user |
 | CP-10 | Carrito | Agregar producto |
 | CP-11 | Carrito | Agregar múltiples productos |
 | CP-12 | Carrito | Eliminar producto |
 | CP-13 | Checkout | Checkout exitoso |
 | CP-14 | Checkout | Campos obligatorios vacíos |
-| CP-15 | Checkout | Campo Last Name con problem_user |
 
 ---
 
