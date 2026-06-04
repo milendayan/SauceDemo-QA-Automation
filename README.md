@@ -42,7 +42,6 @@ Como parte del proceso de aseguramiento de calidad (QA), también se documentaro
 ### 📦 Inventario
 
 - Verificación de cantidad de productos.
-- Validación de imágenes de productos.
 - Ordenamiento de productos por precio (menor a mayor).
 - Validación de ordenamiento con usuario `problem_user`.
 
