@@ -75,13 +75,13 @@ Durante la ejecución de las pruebas se identificaron los siguientes defectos:
 
 La planificación y ejecución de los casos de prueba se encuentra documentada en el siguiente archivo:
 
-- 📊 Casos de Prueba SauceDemo: [https://docs.google.com/spreadsheets/d/1jrePUwfarGZQ2QC_zhLk5bc9LqaudcPD/edit?usp=sharing&ouid=110213015608493580201&rtpof=true&sd=true]
+- 📊 Casos de Prueba SauceDemo: https://docs.google.com/spreadsheets/d/1jrePUwfarGZQ2QC_zhLk5bc9LqaudcPD/edit?usp=sharing&ouid=110213015608493580201&rtpof=true&sd=true
 
 ### Gestión de Bugs
 
 Los defectos identificados durante la ejecución fueron registrados y gestionados mediante Trello:
 
-- 📌 Tablero Trello: [https://trello.com/invite/b/6a1b66ad9fc13667dbc9e85e/ATTI8bbe24a35bc710fbe12d079f97528807E85F8D05/qa-automation-2026]
+- 📌 Tablero Trello: https://trello.com/invite/b/6a1b66ad9fc13667dbc9e85e/ATTI8bbe24a35bc710fbe12d079f97528807E85F8D05/qa-automation-2026
 
 ### Tickets de Bugs
 
