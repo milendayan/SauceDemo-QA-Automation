@@ -187,19 +187,4 @@ Las evidencias utilizadas para la validación de los casos de prueba y el report
 ```text
 /evidencias
 ```
-
 ---
-
-## 👩‍💻 Autor
-
-**Milen Dayana Herrera Delgado**
-
-Estudiante de Ingeniería de Sistemas
-
-QA Manual | QA Automation | Cypress Testing
-
----
-
-## 📄 Licencia
-
-Proyecto desarrollado con fines académicos y de aprendizaje.
