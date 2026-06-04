@@ -61,11 +61,11 @@ Como parte del proceso de aseguramiento de calidad (QA), también se documentaro
 
 Durante la ejecución de las pruebas se identificaron los siguientes defectos:
 
-| ID | Módulo | Descripción |
-|----|---------|-------------|
-| BUG-01 | Inventario | Imágenes de productos incorrectas para `problem_user` |
-| BUG-02 | Inventario | Ordenamiento por precio no funciona para `problem_user` |
-| BUG-03 | Checkout | Campo Last Name presenta comportamiento incorrecto para `problem_user` |
+| ID | Módulo | Descripción | Ticket |
+|-----|---------|-------------|---------|
+| BUG-01 | Inventario | Imágenes de productos incorrectas para problem_user | Trello |
+| BUG-02 | Inventario | Ordenamiento por precio no funciona para problem_user | Trello |
+| BUG-03 | Checkout | Campo Last Name presenta comportamiento incorrecto para problem_user | Trello |
 
 ---
 
