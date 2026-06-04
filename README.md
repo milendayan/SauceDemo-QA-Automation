@@ -63,9 +63,31 @@ Durante la ejecución de las pruebas se identificaron los siguientes defectos:
 
 | ID | Módulo | Descripción | Ticket |
 |-----|---------|-------------|---------|
-| BUG-01 | Inventario | Imágenes de productos incorrectas para problem_user | Trello |
-| BUG-02 | Inventario | Ordenamiento por precio no funciona para problem_user | Trello |
-| BUG-03 | Checkout | Campo Last Name presenta comportamiento incorrecto para problem_user | Trello |
+| BUG-01 | Inventario | Imágenes de productos incorrectas para problem_user | https://trello.com/c/iOKAY1Sa |
+| BUG-02 | Inventario | Ordenamiento por precio no funciona para problem_user | https://trello.com/c/1IAYdUAM |
+| BUG-03 | Checkout | Campo Last Name presenta comportamiento incorrecto para problem_user | https://trello.com/c/8HMjJhBs |
+
+---
+
+## 📄 Documentación y Trazabilidad
+
+### Casos de Prueba
+
+La planificación y ejecución de los casos de prueba se encuentra documentada en el siguiente archivo:
+
+- 📊 Casos de Prueba SauceDemo: [https://docs.google.com/spreadsheets/d/1jrePUwfarGZQ2QC_zhLk5bc9LqaudcPD/edit?usp=sharing&ouid=110213015608493580201&rtpof=true&sd=true]
+
+### Gestión de Bugs
+
+Los defectos identificados durante la ejecución fueron registrados y gestionados mediante Trello:
+
+- 📌 Tablero Trello: [https://trello.com/invite/b/6a1b66ad9fc13667dbc9e85e/ATTI8bbe24a35bc710fbe12d079f97528807E85F8D05/qa-automation-2026]
+
+### Tickets de Bugs
+
+- BUG-01 - Imágenes de productos incorrectas para problem_user
+- BUG-02 - Ordenamiento por precio no funciona para problem_user
+- BUG-03 - Campo Last Name presenta comportamiento incorrecto para problem_user
 
 ---
 
