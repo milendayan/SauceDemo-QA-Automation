@@ -2,9 +2,17 @@
 
 ## 📋 Descripción
 
-Este proyecto contiene la automatización de pruebas funcionales para la aplicación web **SauceDemo: https://www.saucedemo.com/** utilizando **Cypress**.
+Este proyecto contiene la automatización de pruebas funcionales para la aplicación web SauceDemo utilizando Cypress.
 
-Como parte del proceso de aseguramiento de calidad (QA), también se documentaron y reportaron los defectos identificados durante la ejecución de pruebas mediante **Trello**, siguiendo un formato estandarizado de reporte de bugs.
+Como parte del proceso de aseguramiento de calidad (QA), también se documentaron y reportaron los defectos identificados durante la ejecución de pruebas mediante Trello, siguiendo un formato estandarizado de reporte de bugs.
+
+---
+
+🌐 Aplicación Bajo Prueba
+
+SauceDemo: https://www.saucedemo.com/
+
+Aplicación utilizada para la práctica de pruebas funcionales, automatización y reporte de defectos.
 
 ---
 
@@ -31,29 +39,50 @@ Como parte del proceso de aseguramiento de calidad (QA), también se documentaro
 
 ## 📂 Módulos Automatizados
 
-### 🔐 Login
+Este proyecto automatiza pruebas funcionales sobre los siguientes módulos:
 
-- Login exitoso con usuario estándar.
-- Login con contraseña incorrecta.
-- Login con campos vacíos.
-- Login con usuario bloqueado.
-- Logout desde el menú hamburguesa.
+- 🔐 Login
+- 📦 Inventario
+- 🛒 Carrito
+- 💳 Checkout
 
-### 📦 Inventario
+---
 
-- Verificación de cantidad de productos.
-- Ordenamiento de productos por precio (menor a mayor).
+## 📄 Documentación y Trazabilidad
 
-### 🛒 Carrito
+### Casos de Prueba
 
-- Agregar un producto al carrito.
-- Agregar múltiples productos.
-- Eliminar productos desde el carrito.
+La planificación y ejecución de los casos de prueba se encuentra documentada en:
 
-### 💳 Checkout
+- 📊 Casos de Prueba SauceDemo: https://docs.google.com/spreadsheets/d/1jrePUwfarGZQ2QC_zhLk5bc9LqaudcPD/edit?usp=sharing&ouid=110213015608493580201&rtpof=true&sd=true
 
-- Completar checkout con datos válidos.
-- Checkout con campos obligatorios vacíos.
+- 📌 Tablero Trello:
+
+Los defectos identificados fueron registrados y gestionados mediante Trello:
+
+ https://trello.com/invite/b/6a1b66ad9fc13667dbc9e85e/ATTI8bbe24a35bc710fbe12d079f97528807E85F8D05/qa-automation-2026
+
+---
+
+## 📑 Casos de Prueba Automatizados
+
+| ID | Módulo | Caso de Prueba |
+|----|---------|----------------|
+| CP-01 | Login | Login exitoso |
+| CP-02 | Login | Contraseña incorrecta |
+| CP-03 | Login | Campos vacíos |
+| CP-04 | Login | Usuario bloqueado |
+| CP-05 | Login | Logout |
+| CP-06 | Inventario | Cantidad de productos |
+| CP-08 | Inventario | Ordenamiento por precio |
+| CP-10 | Carrito | Agregar producto |
+| CP-11 | Carrito | Agregar múltiples productos |
+| CP-12 | Carrito | Eliminar producto |
+| CP-13 | Checkout | Checkout exitoso |
+| CP-14 | Checkout | Campos obligatorios vacíos |
+
+> Nota:
+> Los casos CP-07, CP-09 y CP-15 no fueron automatizados debido a que durante su ejecución se identificaron defectos funcionales en la aplicación. Estos hallazgos fueron documentados y reportados mediante tickets de bug en Trello para su posterior corrección por parte del equipo de desarrollo.
 
 ---
 
@@ -69,25 +98,19 @@ Durante la ejecución de las pruebas se identificaron los siguientes defectos:
 
 ---
 
-## 📄 Documentación y Trazabilidad
+## 📌 Gestión de Bugs
 
-### Casos de Prueba
+Los defectos encontrados fueron documentados siguiendo una estructura formal de reporte que incluye:
 
-La planificación y ejecución de los casos de prueba se encuentra documentada en el siguiente archivo:
+- Título
+- Descripción
+- Precondiciones
+- Pasos para reproducir
+- Resultado esperado
+- Resultado obtenido
+- Evidencia
 
-- 📊 Casos de Prueba SauceDemo: https://docs.google.com/spreadsheets/d/1jrePUwfarGZQ2QC_zhLk5bc9LqaudcPD/edit?usp=sharing&ouid=110213015608493580201&rtpof=true&sd=true
-
-### Gestión de Bugs
-
-Los defectos identificados durante la ejecución fueron registrados y gestionados mediante Trello:
-
-- 📌 Tablero Trello: https://trello.com/invite/b/6a1b66ad9fc13667dbc9e85e/ATTI8bbe24a35bc710fbe12d079f97528807E85F8D05/qa-automation-2026
-
-### Tickets de Bugs
-
-- BUG-01 - Imágenes de productos incorrectas para problem_user
-- BUG-02 - Ordenamiento por precio no funciona para problem_user
-- BUG-03 - Campo Last Name presenta comportamiento incorrecto para problem_user
+Los tickets fueron gestionados mediante Trello para facilitar su seguimiento y trazabilidad.
 
 ---
 
@@ -110,23 +133,7 @@ cypress/
 
 ---
 
-## ⚙️ Instalación
-
-Clonar el repositorio:
-
-```bash
-git clone https://github.com/tu-usuario/saucedemo-qa-automation.git
-```
-
-Ingresar al directorio:
-
-```bash
-cd QA2026
-```
-
----
-
-## ▶️ Ejecución de Pruebas
+## ▶️ Instalación y ejecución de Pruebas
 
 Instalar Cypress dentro de la carpeta que vamos a usar:
 
@@ -142,46 +149,13 @@ npx cypress open
 
 ---
 
-## 📑 Casos de Prueba Automatizados
+## 📊 Resultados de la Ejecución
 
-| ID | Módulo | Caso de Prueba |
-|----|---------|----------------|
-| CP-01 | Login | Login exitoso |
-| CP-02 | Login | Contraseña incorrecta |
-| CP-03 | Login | Campos vacíos |
-| CP-04 | Login | Usuario bloqueado |
-| CP-05 | Login | Logout |
-| CP-06 | Inventario | Cantidad de productos |
-| CP-08 | Inventario | Ordenamiento por precio |
-| CP-10 | Carrito | Agregar producto |
-| CP-11 | Carrito | Agregar múltiples productos |
-| CP-12 | Carrito | Eliminar producto |
-| CP-13 | Checkout | Checkout exitoso |
-| CP-14 | Checkout | Campos obligatorios vacíos |
+- Casos de prueba diseñados: 15
+- Casos automatizados: 12
+- Casos ejecutados exitosamente: 12
+- Bugs identificados: 3
+- Herramienta de automatización: Cypress
+- Herramienta de gestión: Trello
 
----
-
-## 📌 Gestión de Bugs
-
-Los defectos encontrados fueron documentados siguiendo una estructura formal de reporte que incluye:
-
-- Título
-- Descripción
-- Precondiciones
-- Pasos para reproducir
-- Resultado esperado
-- Resultado obtenido
-- Evidencia
-
-Los tickets fueron gestionados mediante Trello para facilitar su seguimiento y trazabilidad.
-
----
-
-## 📷 Evidencias
-
-Las evidencias utilizadas para la validación de los casos de prueba y el reporte de defectos se encuentran en la carpeta:
-
-```text
-/evidencias
-```
 ---
